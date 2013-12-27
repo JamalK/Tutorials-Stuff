@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6DD677717A6161800995C89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DD677617A6161800995C89 /* UIKit.framework */; };
+		E6DD677917A6161800995C89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DD677817A6161800995C89 /* Foundation.framework */; };
+		E6DD677B17A6161800995C89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DD677A17A6161800995C89 /* CoreGraphics.framework */; };
+		E6DD677D17A6161800995C89 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DD677C17A6161800995C89 /* CoreData.framework */; };
+		E6DD678317A6161800995C89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6DD678117A6161800995C89 /* InfoPlist.strings */; };
+		E6DD678517A6161800995C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DD678417A6161800995C89 /* main.m */; };
+		E6DD678917A6161800995C89 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DD678817A6161800995C89 /* JKAppDelegate.m */; };
+		E6DD678B17A6161800995C89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6DD678A17A6161800995C89 /* Default.png */; };
+		E6DD678D17A6161800995C89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6DD678C17A6161800995C89 /* Default@2x.png */; };
+		E6DD678F17A6161800995C89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6DD678E17A6161800995C89 /* Default-568h@2x.png */; };
+		E6DD679217A6161800995C89 /* JKNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6DD679017A6161800995C89 /* JKNotes.xcdatamodeld */; };
+		E6DD679917A617C300995C89 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DD679817A617C300995C89 /* Storyboard.storyboard */; };
+		E6DD679C17A61B4C00995C89 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DD679B17A61B4C00995C89 /* NoteViewController.m */; };
+		E6DD679F17A61BB200995C89 /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DD679E17A61BB200995C89 /* NoteDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6DD677317A6161800995C89 /* JKNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DD677617A6161800995C89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6DD677817A6161800995C89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6DD677A17A6161800995C89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6DD677C17A6161800995C89 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E6DD678017A6161800995C89 /* JKNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKNotes-Info.plist"; sourceTree = "<group>"; };
+		E6DD678217A6161800995C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6DD678417A6161800995C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6DD678617A6161800995C89 /* JKNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKNotes-Prefix.pch"; sourceTree = "<group>"; };
+		E6DD678717A6161800995C89 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		E6DD678817A6161800995C89 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		E6DD678A17A6161800995C89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6DD678C17A6161800995C89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E6DD678E17A6161800995C89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E6DD679117A6161800995C89 /* JKNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JKNotes.xcdatamodel; sourceTree = "<group>"; };
+		E6DD679817A617C300995C89 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		E6DD679A17A61B4C00995C89 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		E6DD679B17A61B4C00995C89 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		E6DD679D17A61BB200995C89 /* NoteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailViewController.h; sourceTree = "<group>"; };
+		E6DD679E17A61BB200995C89 /* NoteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6DD677017A6161800995C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DD677717A6161800995C89 /* UIKit.framework in Frameworks */,
+				E6DD677917A6161800995C89 /* Foundation.framework in Frameworks */,
+				E6DD677B17A6161800995C89 /* CoreGraphics.framework in Frameworks */,
+				E6DD677D17A6161800995C89 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6DD676A17A6161800995C89 = {
+			isa = PBXGroup;
+			children = (
+				E6DD677E17A6161800995C89 /* JKNotes */,
+				E6DD677517A6161800995C89 /* Frameworks */,
+				E6DD677417A6161800995C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6DD677417A6161800995C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6DD677317A6161800995C89 /* JKNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6DD677517A6161800995C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6DD677617A6161800995C89 /* UIKit.framework */,
+				E6DD677817A6161800995C89 /* Foundation.framework */,
+				E6DD677A17A6161800995C89 /* CoreGraphics.framework */,
+				E6DD677C17A6161800995C89 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6DD677E17A6161800995C89 /* JKNotes */ = {
+			isa = PBXGroup;
+			children = (
+				E6DD678717A6161800995C89 /* JKAppDelegate.h */,
+				E6DD678817A6161800995C89 /* JKAppDelegate.m */,
+				E6DD679017A6161800995C89 /* JKNotes.xcdatamodeld */,
+				E6DD679817A617C300995C89 /* Storyboard.storyboard */,
+				E6DD679D17A61BB200995C89 /* NoteDetailViewController.h */,
+				E6DD679E17A61BB200995C89 /* NoteDetailViewController.m */,
+				E6DD679A17A61B4C00995C89 /* NoteViewController.h */,
+				E6DD679B17A61B4C00995C89 /* NoteViewController.m */,
+				E6DD677F17A6161800995C89 /* Supporting Files */,
+			);
+			path = JKNotes;
+			sourceTree = "<group>";
+		};
+		E6DD677F17A6161800995C89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6DD678017A6161800995C89 /* JKNotes-Info.plist */,
+				E6DD678117A6161800995C89 /* InfoPlist.strings */,
+				E6DD678417A6161800995C89 /* main.m */,
+				E6DD678617A6161800995C89 /* JKNotes-Prefix.pch */,
+				E6DD678A17A6161800995C89 /* Default.png */,
+				E6DD678C17A6161800995C89 /* Default@2x.png */,
+				E6DD678E17A6161800995C89 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6DD677217A6161800995C89 /* JKNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DD679517A6161800995C89 /* Build configuration list for PBXNativeTarget "JKNotes" */;
+			buildPhases = (
+				E6DD676F17A6161800995C89 /* Sources */,
+				E6DD677017A6161800995C89 /* Frameworks */,
+				E6DD677117A6161800995C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKNotes;
+			productName = JKNotes;
+			productReference = E6DD677317A6161800995C89 /* JKNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6DD676B17A6161800995C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jamal Kharrat";
+			};
+			buildConfigurationList = E6DD676E17A6161800995C89 /* Build configuration list for PBXProject "JKNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6DD676A17A6161800995C89;
+			productRefGroup = E6DD677417A6161800995C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6DD677217A6161800995C89 /* JKNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6DD677117A6161800995C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DD678317A6161800995C89 /* InfoPlist.strings in Resources */,
+				E6DD678B17A6161800995C89 /* Default.png in Resources */,
+				E6DD678D17A6161800995C89 /* Default@2x.png in Resources */,
+				E6DD678F17A6161800995C89 /* Default-568h@2x.png in Resources */,
+				E6DD679917A617C300995C89 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6DD676F17A6161800995C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DD678517A6161800995C89 /* main.m in Sources */,
+				E6DD678917A6161800995C89 /* JKAppDelegate.m in Sources */,
+				E6DD679217A6161800995C89 /* JKNotes.xcdatamodeld in Sources */,
+				E6DD679C17A61B4C00995C89 /* NoteViewController.m in Sources */,
+				E6DD679F17A61BB200995C89 /* NoteDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6DD678117A6161800995C89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6DD678217A6161800995C89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6DD679317A6161800995C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6DD679417A6161800995C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6DD679617A6161800995C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKNotes/JKNotes-Prefix.pch";
+				INFOPLIST_FILE = "JKNotes/JKNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6DD679717A6161800995C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKNotes/JKNotes-Prefix.pch";
+				INFOPLIST_FILE = "JKNotes/JKNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6DD676E17A6161800995C89 /* Build configuration list for PBXProject "JKNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DD679317A6161800995C89 /* Debug */,
+				E6DD679417A6161800995C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DD679517A6161800995C89 /* Build configuration list for PBXNativeTarget "JKNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DD679617A6161800995C89 /* Debug */,
+				E6DD679717A6161800995C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6DD679017A6161800995C89 /* JKNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6DD679117A6161800995C89 /* JKNotes.xcdatamodel */,
+			);
+			currentVersion = E6DD679117A6161800995C89 /* JKNotes.xcdatamodel */;
+			path = JKNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6DD676B17A6161800995C89 /* Project object */;
+}
